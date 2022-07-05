@@ -181,7 +181,7 @@ main {
   border: 2px solid var(--clr-black);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: var(--radius);
+  border-radius: var(--radius); 
   margin: 0.5rem;
 }
 .btn:hover {
