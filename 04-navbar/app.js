@@ -12,10 +12,12 @@ navToggle.addEventListener("click", function() {
     // console.log(links.classList.contains('random')); //output: false
     // console.log(links.classList.contains('links')); //output: true
 
-    if(links.classList.contains('show-links')){
-        links.classList.remove('show-links');
-    }
-    else{
-        links.classList.add('show-links');
-    }
+    // if(links.classList.contains('show-links')){
+    //     links.classList.remove('show-links');
+    // }
+    // else{
+    //     links.classList.add('show-links');
+    // }
+
+    links.classList.toggle('show-links');
 });
