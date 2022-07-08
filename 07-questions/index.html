@@ -18,7 +18,83 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>questions project</h1>
+    <section class="questions">
+      <!-- title -->
+      <div class="title">
+        <h2>general questions</h2>
+      </div>
+      <!-- questions -->
+      <div class="section-center">
+
+        <!-- single question -->
+        <article class="question">
+          <!-- question title -->
+          <div class="question-title">
+            <p>Does JavaScript support automatic type conversion?</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+
+          <!-- question answer text -->
+          <div class="question-text">
+            <p>Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers</p>
+          </div>
+        </article>
+        <!-- end single question -->
+
+        <!-- single question -->
+        <article class="question">
+          <!-- question title -->
+          <div class="question-title">
+            <p>Difference between “==” and “===”?</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+
+          <!-- question answer text -->
+          <div class="question-text">
+            <p>“==” checks only for equality in value, whereas “===” is a stricter equality test and returns false if either the value or the type of the two variables are different.</p>
+          </div>
+        </article>
+        <!-- end single question -->
+
+        <!-- single question -->
+        <article class="question">
+          <!-- question title -->
+          <div class="question-title">
+            <p>Difference between var and let keyword in javascript.</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon">
+                <i class="far fa-plus-square"></i>
+              </span>
+              <span class="minus-icon">
+                <i class="far fa-minus-square"></i>
+              </span>
+            </button>
+          </div>
+
+          <!-- question answer text -->
+          <div class="question-text">
+            <p>From the very beginning, the 'var' keyword was used in JavaScript programming whereas the keyword 'let' was just added in 2015.<br><br>
+              The keyword 'Var' has function scope. Anywhere in the function, the variable specified using var is accessible but in ‘let’ the scope of a variable declared with the 'let' keyword is limited to the block in which it is declared. Let's start with a Block Scope.<br><br>
+              'var' declares a variable that will be hoisted but 'let' declares a variable that will not be hoisted.</p>
+          </div>
+        </article>
+        <!-- end single question -->
+      </div>
+    </section>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
