@@ -9,3 +9,13 @@ This repo is a collection of small projects, each highlighting a specific concep
 ## Featured Projects
 
 Here's a quick look at some of the projects:
+- 01: color flipper 
+- 02: counter
+- 03: reviews
+- 04: navbar
+- 05: sidebar
+- 06: modal
+- 07: questions
+- 08: menu
+- 09: form validation
+
