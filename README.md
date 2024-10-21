@@ -18,4 +18,5 @@ Here's a quick look at some of the projects:
 - 07: questions
 - 08: menu
 - 09: form validation
-
+- 10: Student grade calculator
+- 11: JS todo app using LocalStorage
